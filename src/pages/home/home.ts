@@ -17,10 +17,10 @@ export class HomePage {
 
   constructor(public navCtrl: NavController) {
 
+
   }
 
   call(contact){
-    // alert(contact.name + " " + contact.phone);
     window.open('tel:' + contact.phone);
   }
 
