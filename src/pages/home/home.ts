@@ -15,8 +15,8 @@ export class HomePage {
     ,{ name:'จส. 100', phone:'1137' }
   ]
 
-
   constructor(public navCtrl: NavController) {
+
 
   }
 
